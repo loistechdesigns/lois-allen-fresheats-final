@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #84B252;
+  border: 2px solid #000;
+
+
+  @media (min-width: 780px) {
+    background-color: #B0D785;
+  }
+
+
+}
+
+h2 {
+
+  padding: 0.5em;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+  margin: 1rem 0;
+  font-size: 1rem;
+  background-color: #84B252;
+  border: 2px solid #000;
+
+}
+
+nav {
+  text-align: center;
+}
+
+
+
+.box p {
+  margin-bottom: 1em;
+  text-align: justify;
+  margin-right: 1em;
+  margin-left: .5em;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+
+
+li a {
+  display: inline-block;
+  color: #eef5f2;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: nunito, sans-serif;
+}
+
+#service-description {
+  display: flex;
+  border: 2px solid #000;
+  background-color: #B0D785;
+}
+
+.grid-item {
+  padding: 10px;
+  border: 2px solid #000;
+
+}
+
+
+
+.main-nav {
+  display: flex;
+  padding: 10px 50px;
+}
+
+
+.how {
+  margin-right: 29.3px;
+
+
+}
+
+
+.push {
+  margin-left: auto;
+}
+
+a:link,
+a:visited {
+  background-color: #84B252;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #eef5f2;
+  color: #000;
+}
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-around;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: block;
+    justify-content: space around;
+    background-color: #84B252;
+  }
+}
+
+.grid-item {
+
+  background-color: #B0D785;
+  box-shadow: 1px 2px 3px 4px rgba(20, 20, 20, 0.4);
+
+
+}
+
+img.grid-item {
+  border: 5px solid #000;
+}
+
+p.grid-item {
+
+  padding: 0.5em;
+  font-size: 1.2em;
+  grid-column: span 2;
+
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid #000;
+  color: #eff6f3;
+  background-color: #84B252;
+  padding: 2em 0 2em 0;
+  font-size: .75rem;
+  font-weight: 300;
+  font-family: Nunito, sans-serif;
+  margin-top: 1rem;
+
+
+}
